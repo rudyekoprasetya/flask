@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hallo rendering HTML</title>
+</head>
+<body bgcolor="lavender">
+    <center>
+    <h2>Rendering HTML dengan Jinja</h2>
+    {% if person %}
+        <h3>Selamat datang {{person}}</h3>
+    {% else %}
+        <h3>Selamat datang di Jinja</h3>
+    {% endif %}
+    </center>
+</body>
+</html>
